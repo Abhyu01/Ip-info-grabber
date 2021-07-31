@@ -6,7 +6,7 @@ print("Ip info grabber :)")
 
 # api request and gather info
 address = input("Enter Ip: ")
-req = f"http://api.ipstack.com/{address}?access_key=08fd6bd5fa7f30a6064222f172a1ae4b"
+req = f"http://api.ipstack.com/{address}?access_key=#"
 
 respond = urlopen(req)
 
